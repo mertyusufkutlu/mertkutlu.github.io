@@ -4815,7 +4815,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #434E5E;
+  background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -9707,11 +9707,23 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   max-width: 1200px;
 }
 
+
+
 .resume-header {
-  background: #434E5E;
+  background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
   color: rgba(255, 255, 255, 0.9);
   height: 220px;
 }
+
+
+
+.pill-gradient{
+  font-size: 1rem;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
+}
+
 
 .resume-header .picture {
   width: 203.5px;
@@ -9728,7 +9740,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
 }
 
 .resume-header a:hover {
@@ -9740,19 +9752,19 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-social .fa-container {
-  font-size: 1rem;
+  font-size: 1.2rem;
   display: inline-block;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   border-radius: 0.125rem;
-  background: white;
+  background: linear-gradient(to right top, #8d949a, white);
   color: #434E5E;
 }
 
 .resume-section-title {
   font-size: 1.25rem;
   position: relative;
-  color: #434E5E;
+  color: #151414;
 }
 
 .resume-section-title:after {
@@ -9762,7 +9774,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   bottom: 0;
   width: 100%;
   height: 1.5px;
-  background: #8d9aad;
+  background: linear-gradient(135deg, #000000, white);
 }
 
 .resume-section-content {
@@ -9778,9 +9790,9 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   display: inline-block;
   width: 3px;
   height: 100%;
-  background: #aab4c3;
+  background: linear-gradient(135deg, #000000, white);
   left: 6px;
-  top: 4px;
+  top: 5px;
   position: absolute;
 }
 
@@ -9792,7 +9804,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   top: 3px;
   width: 15px;
   height: 15px;
-  border: 4px solid #58677c;
+  border: 3px solid #b44242;
   background: white;
   border-radius: 50%;
 }
@@ -9808,13 +9820,15 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-position-time {
-  font-size: 0.875rem;
-  color: #aab4c3;
+  font-size: 1rem;
+  font-family: "Arial", sans-serif;
+  font-weight: bold;
+  color: #182121;
 }
 
 .resume-position-title {
-  font-size: 1.125rem;
-  color: #434E5E;
+  font-size: 1rem;
+  color: #000000;
 }
 
 .resume-timeline-item-desc-heading {
@@ -9827,16 +9841,16 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-skill-name {
-  font-size: 0.8625rem;
-  color: #434E5E;
+  font-size: 1rem;
+  color: #000000;
 }
 
 .resume-degree {
-  color: #434E5E;
+  color: #000000;
 }
 
 .resume-degree-org {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .resume-degree-time {
