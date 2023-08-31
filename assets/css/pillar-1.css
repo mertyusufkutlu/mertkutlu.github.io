@@ -9715,6 +9715,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   height: 220px;
 }
 
+.resume-header a {
+  text-decoration: none; /* Altı çizgileri kaldır */
+}
+
+.resume-social a {
+  border-bottom: none; /* Altı çizgileri kaldır */
+}
+
 
 
 .pill-gradient{
