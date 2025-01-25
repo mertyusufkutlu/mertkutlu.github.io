@@ -587,6 +587,7 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-top: 75px;
 }
 
 .no-gutters {
@@ -4779,7 +4780,7 @@ input.btn-block[type="button"] {
   display: inline-block;
   padding: 0.25em 0.4em;
   font-size: 75%;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -4814,6 +4815,7 @@ a.badge:hover, a.badge:focus {
 }
 
 .badge-primary {
+  font-size: 0.9rem;
   color: #fff;
   background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
 }
@@ -9710,7 +9712,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 
 .resume-header {
-  background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
+  background-image: linear-gradient(to right top, #000000 0%, #434343 100%, #000000 100%);
   color: rgba(255, 255, 255, 0.9);
   height: 220px;
 }
@@ -9726,7 +9728,7 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 
 .pill-gradient{
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Arial", sans-serif;
   font-weight: bold;
   background-image: linear-gradient(to right top, #000000 0%, #434343 51%, #000000 100%);
